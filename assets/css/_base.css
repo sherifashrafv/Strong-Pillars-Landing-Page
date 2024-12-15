@@ -1,0 +1,104 @@
+@import "taillwind.module.css";
+@import "theme.css";
+@import "fonts.css";
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  word-break: break-word;
+}
+
+html,
+body {
+  min-height: 100vh;
+  color: var(--accent);
+  background-color: var(--bg);
+  scroll-behavior: smooth;
+  transition: all 0.1s ease-in-out;
+  font-family: var(--font-en);
+  line-height: 1.4;
+}
+
+.--sticky-navbar {
+  position: fixed;
+  top: 2%;
+  z-index: 999;
+  background-color: var(--bg);
+  padding: 1rem;
+  left: 50%;
+  width: 87%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 66px;
+  border: var(--stroke-weight-1, 1px) solid rgba(15, 15, 15, 0.1);
+  background: rgba(255, 255, 255, 0.73);
+  backdrop-filter: blur(5.5px);
+  transform: translateX(-50%);
+}
+.rounded-wrapper {
+  border-radius: 16px;
+  border: var(--stroke-weight-1, 1px) solid rgba(104, 104, 129, 0.1);
+}
+
+.testimonials-card {
+  width: 360.867px;
+  padding: 24px 32px 32px 32px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.feature-icon {
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 2px 60px 0px rgba(0, 0, 0, 0.05);
+  padding: 13px;
+  display: flex;
+  width: 60px;
+  height: 60px;
+  padding: 13px;
+  justify-content: center;
+  align-items: center;
+}
+.Track-Card {
+  display: flex;
+  padding: 40px;
+  flex-direction: column;
+  border-radius: 32px;
+  background: #fff;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cs-col {
+  padding: 36px 20px 36px 16px;
+}
+.subscribe-card {
+  padding: 24px;
+  border-radius: 20px;
+  background: #f9fafb;
+}
+.benfits-card {
+  border-radius: 16px;
+  background: #fff;
+  display: flex;
+  padding: 24px 16px;
+}
+.slide-card {
+  padding: 32px 40px;
+  border-radius: 20px;
+  background: #fff;
+  backdrop-filter: blur(40px);
+}
+.discovered-card {
+  padding: 80px 69px 80px 60px;
+  border-radius: 32px;
+  background: #56756c;
+}

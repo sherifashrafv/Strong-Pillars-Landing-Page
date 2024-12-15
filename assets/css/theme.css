@@ -1,0 +1,23 @@
+:root {
+  --primary: #56756c;
+
+  --secondary: #324e45;
+
+  --third: #ffffff;
+
+  --accent: #0f0f0f;
+  --accent-rgb: 0, 0, 0;
+
+  --bg: #f9f9fb;
+
+  --font-ar: Swisser;
+  --font-en: "Plus Jakarta Sans", sans-serif;
+
+  --font-base-size: 1rem;
+
+  --font-sm-size: 0.8rem;
+  --font-xsm-size: 0.7rem;
+
+  --font-lg-size: 1.7rem;
+  --font-xlg-size: 2.1rem;
+}
